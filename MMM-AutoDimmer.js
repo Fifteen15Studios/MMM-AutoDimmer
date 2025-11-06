@@ -373,6 +373,7 @@ Module.register("MMM-AutoDimmer", {
 			self.overlay.style.bottom = "0px";
 			self.overlay.style["z-index"] = 9999;
 			self.overlay.style.opacity = 0.0;
+			self.overlay.style.pointerEvents = "none";
 		}
 
 		self.opacity = 0;
